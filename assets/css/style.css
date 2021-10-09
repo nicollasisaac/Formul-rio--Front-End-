@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 7px;
+    background: #4b4b4b;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, #bc4e9c);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* Initial Screen */
+.container-initial{
+    height: 40rem;
+    background-image: url(/assets/img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.initial-text{
+    color: white;
+    padding-top: 14rem;
+    padding-left: 4rem;
+}
+.initial-text h1{
+    font-size: 2rem;
+}
+.initial-text h2{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: rgba(255, 0, 0, 0.329);
+}
+.initial-text p{
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+/* Bottom Main */
+.btn{
+    background: #bc4e9c;
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
+    background: linear-gradient(to right, #f80759, #bc4e9c);
+    border: none;
+    height: 3rem;
+    color: white;
+    border-radius: .5rem;
+    box-shadow: 0 .1rem .8rem rgba(0, 0, 0, 0.329);
+    transition: .4s ease-in;
+}
+.btn:hover{
+    background: crimson;
+    color: #2b2b2b;
+    transition: .4s ease-out;
+}
+
+/* Bottom Saiba Mais */
+.saiba-mais{
+    width: 14%;
+}
+.saiba-mais p{
+    text-align: center;
+    padding-top: .9rem;
+}
+
+/* Sessão Form */
+#Form {
+   height: 40rem;
+}
+#Form h1{
+    color: #2b2b2b;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+/* Form */
+Form{
+    margin-top: 2rem;
+    position: inherit;
+}
+.input-group input,textarea{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border: 1px solid #8b8b8b;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+.field-label{
+    font-size: 1.5rem;
+    color: #2b2b2b;
+    justify-content: center;
+    display: flex;
+    width: 55%;
+    margin-bottom: .9rem;
+}
+.label-message{
+    font-size: 1.5rem;
+    color: #2b2b2b;
+    justify-content: center;
+    display: flex;
+    width: 59%;
+    margin-bottom: .9rem;
+}
+
+/* Bottom Enviar */
+.enviar{
+    font-size: 1rem;
+    width: 20%;
+    text-transform: uppercase;
+}
+.container-contato{
+    width: 100%;
+    text-align: center;
+}
+.container-contato button{
+    margin: 0 auto;
+    cursor: pointer;
+}
